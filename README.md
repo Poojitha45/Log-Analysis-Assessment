@@ -27,7 +27,7 @@ The results are saved as CSV files for easy access and review.
 ```bash
 git clone <repository-url>
 cd log-analysis
-
+---
 ### 2. Install Dependencies
 Ensure Python 3 is installed. Install necessary libraries using:
 ```bash
@@ -36,11 +36,11 @@ pip install -r requirements.txt
 # 3.Run the Script
 Execute the script to analyze the log file:
   python log_analysis.py
-# 4.How to Use
-1.Place your log file in the same directory as log_analysis.py.
-Update the script to point to your log file if the file name is different.
-2.Run the script as described above.
-3.View the generated CSV files for analysis results.
+## Project Description
+The Log Analysis Script is a Python-based tool designed to process and analyze log files to extract valuable insights. This script provides detailed analysis by:
+1. Identifying the total number of requests made by each IP address.
+2. Determining the most frequently accessed endpoints.
+3. Flagging suspicious activities, such as multiple failed login attempts.
 # 5.Output Files
 1.Requests per IP.csv
     Contains IP addresses and the corresponding number of requests.
