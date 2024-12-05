@@ -1,26 +1,38 @@
-# Log-Analysis-Assessment
-# Project Description
+# Log Analysis Script
+
+## Project Description
 The Log Analysis Script is a Python-based tool designed to process and analyze log files to extract valuable insights. This script provides detailed analysis by:
-  1.Identifying the total number of requests made by each IP address.
-  2.Determining the most frequently accessed endpoints.
-  3.Flagging suspicious activities, such as multiple failed login attempts.
+1. Identifying the total number of requests made by each IP address.
+2. Determining the most frequently accessed endpoints.
+3. Flagging suspicious activities, such as multiple failed login attempts.
+
 The results are saved as CSV files for easy access and review.
-# File Structure
-1.log_analysis.py: The main Python script for log analysis.
-2.sample.log: A sample log file used for testing the script.
-3.Suspicious Activity.csv: Contains flagged IPs for suspicious activities.
-4.Most Accessed Endpoint.csv: Summarizes the most accessed endpoints.
-5.Requests per IP.csv: Lists the request count per IP.
-6.README.md: Documentation of the project.
-7..gitignore (Optional): Specifies files to exclude from version control.
-8.requirements.txt (Optional): Lists Python dependencies required for the script.
-# Installation and Setup
-# 1.Clone the Repository
-  git clone <repository-url>
-  cd log-analysis
-# 2.Install Dependencies
+
+---
+
+## File Structure
+1. `log_analysis.py`: The main Python script for log analysis.
+2. `sample.log`: A sample log file used for testing the script.
+3. `Suspicious Activity.csv`: Contains flagged IPs for suspicious activities.
+4. `Most Accessed Endpoint.csv`: Summarizes the most accessed endpoints.
+5. `Requests per IP.csv`: Lists the request count per IP.
+6. `README.md`: Documentation of the project.
+7. `.gitignore` (Optional): Specifies files to exclude from version control.
+8. `requirements.txt` (Optional): Lists Python dependencies required for the script.
+
+---
+
+## Installation and Setup
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd log-analysis
+
+### 2. Install Dependencies
 Ensure Python 3 is installed. Install necessary libraries using:
-  pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+
 # 3.Run the Script
 Execute the script to analyze the log file:
   python log_analysis.py
