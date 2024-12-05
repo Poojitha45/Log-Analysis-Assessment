@@ -1,7 +1,6 @@
 # Log-Analysis-Assessment
 # Project Description
 The Log Analysis Script is a Python-based tool designed to process and analyze log files to extract valuable insights. This script provides detailed analysis by:
-
   1.Identifying the total number of requests made by each IP address.
   2.Determining the most frequently accessed endpoints.
   3.Flagging suspicious activities, such as multiple failed login attempts.
